@@ -1,75 +1,38 @@
-# Nuxt Minimal Starter
+# Тестовое задание на frontend разработчика
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Необходимо сверстать список квартир с фильтром по макету:  
+[Макет в Figma](https://www.figma.com/file/4epBThlWhT5iGKKMNBPSN2/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B4%D0%BB%D1%8F-%D1%84%D1%80%D0%BE%D0%BD%D1%82%D0%B0?node-id=0%3A1)  
+[Шрифт PT Root UI](https://www.paratype.ru/fonts/pt/pt-root-ui)
 
-## Setup
+---
 
-Make sure to install dependencies:
+## Обязательные требования
 
-```bash
-# npm
-npm install
+- [x] Использование стека **Nuxt 3 + TypeScript + Pinia**  
+- [ ] Подключить уникальные шрифты (PT Root UI)  
+- [ ] Сверстать адаптив по макетам (960+ и 1440+)  
+- [ ] Максимальная ширина контентной части — 1440px, при большей ширине центрировать  
+- [ ] Реализовать кроссбраузерность (Chrome, Firefox, Edge, Safari)  
+- [ ] Вёрстка без CSS-фреймворков (Bootstrap, Foundation)  
+- [ ] Учесть все состояния интерактивных элементов (:hover, :active и т.д.)  
+- [ ] Добавить кнопку "Наверх" (плавная прокрутка, скрытие при ненужности)  
+- [ ] Реализовать фильтр:
+  - [ ] При изменении фильтра — блокировка элементов  
+  - [ ] Отправка запроса (XHR / fetch) к локальному JSON  
+- [ ] Реализовать кнопку “Показать ещё 20”:
+  - [ ] Дозагрузка карточек из JSON  
+  - [ ] Скрытие кнопки при отсутствии новых данных  
 
-# pnpm
-pnpm install
+---
 
-# yarn
-yarn install
+## Дополнительные преимущества
 
-# bun
-bun install
-```
+- [ ] Сохранение состояния при перезагрузке страницы  
+- [ ] Семантическая вёрстка  
+- [ ] Использование SASS (SCSS)  
+- [ ] Работа через систему контроля версий (Git)  
+- [ ] Использование методологии БЭМ  
+- [ ] Учет доступности (a11y)  
+- [ ] Оптимизация загрузки и производительности  
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+---
