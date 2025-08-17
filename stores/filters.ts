@@ -64,12 +64,24 @@ export const useFiltersStore = defineStore("filters", () => {
       selectedAreaMax.value = areaMax.value;
     }
     allowUpdate.value = true;
+
+    console.log(
+      flats.value,
+      filteredFlats.value,
+      rooms.value,
+      priceMin.value,
+      priceMax.value,
+      areaMin.value,
+      areaMax.value,
+    );
   }
 
   async function init() {
     loading.value = true;
     try {
-      const result = await fetch("/data/apartments.json");
+      console.log("fetch");
+      const result = await fetch("/data/flats.json");
+      console.log(result);
       if (!result.ok) throw new Error("Не удалось загрузить");
       flats.value = (await result.json()) as Flats[];
       rooms.value = [...new Set(flats.value.map((e) => e.rooms))].sort(

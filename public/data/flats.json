@@ -2,37 +2,901 @@
   {
     "id": "a1",
     "name": "Квартира 1",
-    "rooms": 2,
-    "area": 58.3,
-    "floor": 3,
-    "price": 7500000,
+    "rooms": 3,
+    "area": 85.4,
+    "floor": 8,
+    "price": 8262000,
     "floorplan": "/floorplans/plan1.svg"
   },
   {
     "id": "a2",
     "name": "Квартира 2",
     "rooms": 3,
-    "area": 82.0,
-    "floor": 5,
-    "price": 11200000,
+    "area": 79.2,
+    "floor": 18,
+    "price": 7162000,
     "floorplan": "/floorplans/plan1.svg"
   },
   {
     "id": "a3",
     "name": "Квартира 3",
     "rooms": 1,
-    "area": 34.5,
-    "floor": 2,
-    "price": 4800000,
+    "area": 40.8,
+    "floor": 20,
+    "price": 3394000,
     "floorplan": "/floorplans/plan1.svg"
   },
   {
     "id": "a4",
     "name": "Квартира 4",
+    "rooms": 3,
+    "area": 81.8,
+    "floor": 23,
+    "price": 11893000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a5",
+    "name": "Квартира 5",
+    "rooms": 3,
+    "area": 74.7,
+    "floor": 25,
+    "price": 13199000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a6",
+    "name": "Квартира 6",
+    "rooms": 2,
+    "area": 71.8,
+    "floor": 5,
+    "price": 7599000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a7",
+    "name": "Квартира 7",
+    "rooms": 2,
+    "area": 53.2,
+    "floor": 12,
+    "price": 8110000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a8",
+    "name": "Квартира 8",
+    "rooms": 3,
+    "area": 84.0,
+    "floor": 18,
+    "price": 7978000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a9",
+    "name": "Квартира 9",
+    "rooms": 1,
+    "area": 36.3,
+    "floor": 12,
+    "price": 5419000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a10",
+    "name": "Квартира 10",
+    "rooms": 1,
+    "area": 44.2,
+    "floor": 8,
+    "price": 7636000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a11",
+    "name": "Квартира 11",
     "rooms": 4,
-    "area": 120.2,
+    "area": 105.7,
+    "floor": 15,
+    "price": 16519000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a12",
+    "name": "Квартира 12",
+    "rooms": 2,
+    "area": 52.9,
+    "floor": 12,
+    "price": 5562000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a13",
+    "name": "Квартира 13",
+    "rooms": 3,
+    "area": 76.5,
+    "floor": 21,
+    "price": 7691000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a14",
+    "name": "Квартира 14",
+    "rooms": 2,
+    "area": 55.6,
+    "floor": 13,
+    "price": 6249000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a15",
+    "name": "Квартира 15",
+    "rooms": 2,
+    "area": 52.6,
+    "floor": 2,
+    "price": 5654000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a16",
+    "name": "Квартира 16",
+    "rooms": 4,
+    "area": 116.0,
+    "floor": 13,
+    "price": 13007000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a17",
+    "name": "Квартира 17",
+    "rooms": 4,
+    "area": 80.9,
     "floor": 7,
-    "price": 20500000,
+    "price": 12835000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a18",
+    "name": "Квартира 18",
+    "rooms": 4,
+    "area": 90.3,
+    "floor": 21,
+    "price": 12196000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a19",
+    "name": "Квартира 19",
+    "rooms": 2,
+    "area": 57.7,
+    "floor": 24,
+    "price": 8664000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a20",
+    "name": "Квартира 20",
+    "rooms": 2,
+    "area": 49.3,
+    "floor": 8,
+    "price": 9844000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a21",
+    "name": "Квартира 21",
+    "rooms": 3,
+    "area": 80.4,
+    "floor": 4,
+    "price": 7907000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a22",
+    "name": "Квартира 22",
+    "rooms": 4,
+    "area": 100.0,
+    "floor": 14,
+    "price": 15157000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a23",
+    "name": "Квартира 23",
+    "rooms": 2,
+    "area": 66.5,
+    "floor": 18,
+    "price": 12189000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a24",
+    "name": "Квартира 24",
+    "rooms": 3,
+    "area": 77.7,
+    "floor": 4,
+    "price": 12572000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a25",
+    "name": "Квартира 25",
+    "rooms": 4,
+    "area": 99.3,
+    "floor": 10,
+    "price": 13125000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a26",
+    "name": "Квартира 26",
+    "rooms": 1,
+    "area": 33.9,
+    "floor": 24,
+    "price": 6275000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a27",
+    "name": "Квартира 27",
+    "rooms": 5,
+    "area": 119.3,
+    "floor": 4,
+    "price": 22006000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a28",
+    "name": "Квартира 28",
+    "rooms": 4,
+    "area": 84.0,
+    "floor": 17,
+    "price": 12858000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a29",
+    "name": "Квартира 29",
+    "rooms": 2,
+    "area": 67.1,
+    "floor": 17,
+    "price": 12764000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a30",
+    "name": "Квартира 30",
+    "rooms": 2,
+    "area": 72.6,
+    "floor": 1,
+    "price": 6783000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a31",
+    "name": "Квартира 31",
+    "rooms": 4,
+    "area": 102.9,
+    "floor": 2,
+    "price": 11206000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a32",
+    "name": "Квартира 32",
+    "rooms": 4,
+    "area": 89.2,
+    "floor": 3,
+    "price": 14970000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a33",
+    "name": "Квартира 33",
+    "rooms": 5,
+    "area": 110.8,
+    "floor": 22,
+    "price": 15183000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a34",
+    "name": "Квартира 34",
+    "rooms": 2,
+    "area": 57.3,
+    "floor": 17,
+    "price": 10583000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a35",
+    "name": "Квартира 35",
+    "rooms": 5,
+    "area": 139.4,
+    "floor": 23,
+    "price": 14517000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a36",
+    "name": "Квартира 36",
+    "rooms": 2,
+    "area": 53.0,
+    "floor": 22,
+    "price": 8373000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a37",
+    "name": "Квартира 37",
+    "rooms": 4,
+    "area": 89.5,
+    "floor": 3,
+    "price": 10791000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a38",
+    "name": "Квартира 38",
+    "rooms": 3,
+    "area": 80.1,
+    "floor": 19,
+    "price": 8525000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a39",
+    "name": "Квартира 39",
+    "rooms": 3,
+    "area": 81.3,
+    "floor": 2,
+    "price": 14891000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a40",
+    "name": "Квартира 40",
+    "rooms": 3,
+    "area": 79.3,
+    "floor": 9,
+    "price": 12710000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a41",
+    "name": "Квартира 41",
+    "rooms": 3,
+    "area": 74.8,
+    "floor": 19,
+    "price": 10227000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a42",
+    "name": "Квартира 42",
+    "rooms": 4,
+    "area": 74.0,
+    "floor": 7,
+    "price": 6758000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a43",
+    "name": "Квартира 43",
+    "rooms": 2,
+    "area": 46.2,
+    "floor": 2,
+    "price": 7429000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a44",
+    "name": "Квартира 44",
+    "rooms": 1,
+    "area": 42.8,
+    "floor": 24,
+    "price": 5167000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a45",
+    "name": "Квартира 45",
+    "rooms": 2,
+    "area": 60.8,
+    "floor": 14,
+    "price": 6203000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a46",
+    "name": "Квартира 46",
+    "rooms": 2,
+    "area": 65.1,
+    "floor": 3,
+    "price": 8670000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a47",
+    "name": "Квартира 47",
+    "rooms": 1,
+    "area": 34.7,
+    "floor": 1,
+    "price": 6811000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a48",
+    "name": "Квартира 48",
+    "rooms": 2,
+    "area": 50.9,
+    "floor": 16,
+    "price": 7012000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a49",
+    "name": "Квартира 49",
+    "rooms": 4,
+    "area": 98.4,
+    "floor": 13,
+    "price": 11004000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a50",
+    "name": "Квартира 50",
+    "rooms": 2,
+    "area": 58.4,
+    "floor": 23,
+    "price": 11381000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a51",
+    "name": "Квартира 51",
+    "rooms": 3,
+    "area": 71.9,
+    "floor": 7,
+    "price": 14110000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a52",
+    "name": "Квартира 52",
+    "rooms": 3,
+    "area": 78.5,
+    "floor": 2,
+    "price": 13326000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a53",
+    "name": "Квартира 53",
+    "rooms": 1,
+    "area": 27.9,
+    "floor": 17,
+    "price": 2759000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a54",
+    "name": "Квартира 54",
+    "rooms": 1,
+    "area": 39.5,
+    "floor": 6,
+    "price": 3485000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a55",
+    "name": "Квартира 55",
+    "rooms": 3,
+    "area": 78.4,
+    "floor": 19,
+    "price": 8588000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a56",
+    "name": "Квартира 56",
+    "rooms": 1,
+    "area": 40.3,
+    "floor": 3,
+    "price": 5251000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a57",
+    "name": "Квартира 57",
+    "rooms": 3,
+    "area": 75.1,
+    "floor": 22,
+    "price": 12462000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a58",
+    "name": "Квартира 58",
+    "rooms": 2,
+    "area": 62.9,
+    "floor": 5,
+    "price": 10102000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a59",
+    "name": "Квартира 59",
+    "rooms": 3,
+    "area": 97.8,
+    "floor": 1,
+    "price": 13202000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a60",
+    "name": "Квартира 60",
+    "rooms": 5,
+    "area": 103.7,
+    "floor": 3,
+    "price": 14986000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a61",
+    "name": "Квартира 61",
+    "rooms": 2,
+    "area": 71.1,
+    "floor": 8,
+    "price": 8841000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a62",
+    "name": "Квартира 62",
+    "rooms": 3,
+    "area": 70.1,
+    "floor": 18,
+    "price": 11526000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a63",
+    "name": "Квартира 63",
+    "rooms": 5,
+    "area": 124.1,
+    "floor": 22,
+    "price": 22096000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a64",
+    "name": "Квартира 64",
+    "rooms": 4,
+    "area": 84.5,
+    "floor": 4,
+    "price": 16281000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a65",
+    "name": "Квартира 65",
+    "rooms": 2,
+    "area": 66.8,
+    "floor": 5,
+    "price": 7527000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a66",
+    "name": "Квартира 66",
+    "rooms": 2,
+    "area": 50.7,
+    "floor": 11,
+    "price": 5295000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a67",
+    "name": "Квартира 67",
+    "rooms": 3,
+    "area": 77.9,
+    "floor": 2,
+    "price": 7095000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a68",
+    "name": "Квартира 68",
+    "rooms": 4,
+    "area": 123.7,
+    "floor": 2,
+    "price": 9949000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a69",
+    "name": "Квартира 69",
+    "rooms": 3,
+    "area": 76.8,
+    "floor": 18,
+    "price": 12647000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a70",
+    "name": "Квартира 70",
+    "rooms": 1,
+    "area": 45.5,
+    "floor": 3,
+    "price": 8800000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a71",
+    "name": "Квартира 71",
+    "rooms": 3,
+    "area": 84.3,
+    "floor": 5,
+    "price": 11092000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a72",
+    "name": "Квартира 72",
+    "rooms": 2,
+    "area": 50.1,
+    "floor": 2,
+    "price": 9412000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a73",
+    "name": "Квартира 73",
+    "rooms": 3,
+    "area": 73.6,
+    "floor": 18,
+    "price": 13697000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a74",
+    "name": "Квартира 74",
+    "rooms": 5,
+    "area": 106.5,
+    "floor": 24,
+    "price": 10495000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a75",
+    "name": "Квартира 75",
+    "rooms": 4,
+    "area": 119.2,
+    "floor": 14,
+    "price": 9891000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a76",
+    "name": "Квартира 76",
+    "rooms": 4,
+    "area": 94.8,
+    "floor": 14,
+    "price": 16710000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a77",
+    "name": "Квартира 77",
+    "rooms": 2,
+    "area": 58.8,
+    "floor": 2,
+    "price": 10762000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a78",
+    "name": "Квартира 78",
+    "rooms": 2,
+    "area": 54.8,
+    "floor": 15,
+    "price": 6683000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a79",
+    "name": "Квартира 79",
+    "rooms": 2,
+    "area": 54.2,
+    "floor": 9,
+    "price": 9958000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a80",
+    "name": "Квартира 80",
+    "rooms": 2,
+    "area": 52.1,
+    "floor": 17,
+    "price": 6667000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a81",
+    "name": "Квартира 81",
+    "rooms": 2,
+    "area": 72.0,
+    "floor": 9,
+    "price": 7303000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a82",
+    "name": "Квартира 82",
+    "rooms": 1,
+    "area": 39.6,
+    "floor": 20,
+    "price": 5233000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a83",
+    "name": "Квартира 83",
+    "rooms": 3,
+    "area": 82.6,
+    "floor": 19,
+    "price": 8492000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a84",
+    "name": "Квартира 84",
+    "rooms": 3,
+    "area": 77.5,
+    "floor": 1,
+    "price": 11035000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a85",
+    "name": "Квартира 85",
+    "rooms": 3,
+    "area": 92.2,
+    "floor": 7,
+    "price": 11406000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a86",
+    "name": "Квартира 86",
+    "rooms": 4,
+    "area": 91.0,
+    "floor": 11,
+    "price": 14085000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a87",
+    "name": "Квартира 87",
+    "rooms": 3,
+    "area": 75.5,
+    "floor": 14,
+    "price": 8995000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a88",
+    "name": "Квартира 88",
+    "rooms": 3,
+    "area": 85.7,
+    "floor": 7,
+    "price": 11180000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a89",
+    "name": "Квартира 89",
+    "rooms": 3,
+    "area": 88.6,
+    "floor": 10,
+    "price": 11405000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a90",
+    "name": "Квартира 90",
+    "rooms": 2,
+    "area": 52.5,
+    "floor": 7,
+    "price": 6908000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a91",
+    "name": "Квартира 91",
+    "rooms": 3,
+    "area": 73.6,
+    "floor": 22,
+    "price": 7775000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a92",
+    "name": "Квартира 92",
+    "rooms": 4,
+    "area": 109.4,
+    "floor": 24,
+    "price": 10980000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a93",
+    "name": "Квартира 93",
+    "rooms": 2,
+    "area": 53.0,
+    "floor": 3,
+    "price": 9445000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a94",
+    "name": "Квартира 94",
+    "rooms": 3,
+    "area": 66.9,
+    "floor": 8,
+    "price": 11827000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a95",
+    "name": "Квартира 95",
+    "rooms": 1,
+    "area": 38.2,
+    "floor": 25,
+    "price": 3390000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a96",
+    "name": "Квартира 96",
+    "rooms": 4,
+    "area": 111.3,
+    "floor": 19,
+    "price": 11501000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a97",
+    "name": "Квартира 97",
+    "rooms": 3,
+    "area": 78.5,
+    "floor": 1,
+    "price": 14689000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a98",
+    "name": "Квартира 98",
+    "rooms": 4,
+    "area": 115.2,
+    "floor": 8,
+    "price": 11647000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a99",
+    "name": "Квартира 99",
+    "rooms": 3,
+    "area": 58.4,
+    "floor": 4,
+    "price": 7871000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a100",
+    "name": "Квартира 100",
+    "rooms": 3,
+    "area": 70.6,
+    "floor": 18,
+    "price": 10693000,
     "floorplan": "/floorplans/plan1.svg"
   }
 ]
