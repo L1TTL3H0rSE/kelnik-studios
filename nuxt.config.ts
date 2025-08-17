@@ -6,24 +6,22 @@ export default defineNuxtConfig({
   ssr: false,
 
   fonts: {
+    defaults: {
+      weights: [400, 700],
+      styles: ["normal"],
+      subsets: ["latin", "cyrillic"],
+    },
     families: [
       {
         name: "PT Root UI",
-        local: false,
-        src: [
-          {
-            path: "/fonts/pt-root-ui/PTRootUI-Regular.woff2",
-            weight: "400",
-            style: "normal",
-          },
-          {
-            path: "/fonts/pt-root-ui/PTRootUI-Bold.woff2",
-            weight: "700",
-            style: "normal",
-          },
-        ],
+        src: ["/fonts/pt-root-ui_regular.woff2"],
         preload: true,
-        display: "swap",
+      },
+      //Почему-то, если явно не задавать Bold, для веса 700 использует regular
+      {
+        name: "PT Root UI Bold",
+        src: ["/fonts/pt-root-ui_bold.woff2"],
+        preload: true,
       },
     ],
   },

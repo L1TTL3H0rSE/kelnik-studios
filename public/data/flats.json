@@ -1,0 +1,38 @@
+[
+  {
+    "id": "a1",
+    "name": "Квартира 1",
+    "rooms": 2,
+    "area": 58.3,
+    "floor": 3,
+    "price": 7500000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a2",
+    "name": "Квартира 2",
+    "rooms": 3,
+    "area": 82.0,
+    "floor": 5,
+    "price": 11200000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a3",
+    "name": "Квартира 3",
+    "rooms": 1,
+    "area": 34.5,
+    "floor": 2,
+    "price": 4800000,
+    "floorplan": "/floorplans/plan1.svg"
+  },
+  {
+    "id": "a4",
+    "name": "Квартира 4",
+    "rooms": 4,
+    "area": 120.2,
+    "floor": 7,
+    "price": 20500000,
+    "floorplan": "/floorplans/plan1.svg"
+  }
+]
