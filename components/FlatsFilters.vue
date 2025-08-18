@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import Slider from "./Slider.vue";
+
 const filters = useFiltersStore();
 
 function clickRoom(n: number) {
@@ -32,16 +34,38 @@ function clickRoom(n: number) {
       <div>
         <div>
           <p class="p-m meta">От</p>
-          <span class="p-m">{{ filters.priceMin }}</span>
+          <span class="p-m">{{ filters.selectedPriceMin }}</span>
         </div>
         <div>
           <p class="p-m meta">До</p>
-          <span class="p-m">{{ filters.priceMax }}</span>
+          <span class="p-m">{{ filters.selectedPriceMax }}</span>
         </div>
       </div>
+      <Slider
+        v-model:selectedMax="filters.selectedPriceMax"
+        v-model:selectedMin="filters.selectedPriceMin"
+        :max="filters.availablePrice.max"
+        :min="filters.availablePrice.min"
+      />
     </div>
     <div class="flats-filters__slider">
       <p class="p-m">Площадь, м²</p>
+      <div>
+        <div>
+          <p class="p-m meta">От</p>
+          <span class="p-m">{{ filters.selectedAreaMin }}</span>
+        </div>
+        <div>
+          <p class="p-m meta">До</p>
+          <span class="p-m">{{ filters.selectedAreaMax }}</span>
+        </div>
+      </div>
+      <Slider
+        v-model:selectedMax="filters.selectedAreaMax"
+        v-model:selectedMin="filters.selectedAreaMin"
+        :max="filters.availableArea.max"
+        :min="filters.availableArea.min"
+      />
     </div>
   </div>
 </template>
@@ -54,6 +78,7 @@ function clickRoom(n: number) {
   width: 400px;
   background: var(--background-main-color);
   padding: 40px;
+  border-radius: 10px;
   &__buttons {
     display: flex;
     gap: 16px;
