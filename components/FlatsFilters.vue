@@ -10,6 +10,10 @@ function clickRoom(n: number) {
   }
   filters.selectedRooms = n;
 }
+
+function disabledRoom(n: number) {
+  return !filters.availableRooms.includes(n);
+}
 </script>
 
 <template>
@@ -21,6 +25,7 @@ function clickRoom(n: number) {
       >
         <div
           :current="filters.selectedRooms == r"
+          :disabled="disabledRoom(r)"
           @click="clickRoom(r)"
         >
           <p class="p-m">
@@ -67,11 +72,22 @@ function clickRoom(n: number) {
         :min="filters.availableArea.min"
       />
     </div>
+    <div
+      class="flats-filters__reset"
+      @click="filters.resetFilters()"
+    >
+      <p class="p-m">Сбросить фильтры</p>
+      <IconsCross />
+    </div>
   </div>
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
 .flats-filters {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -91,6 +107,13 @@ function clickRoom(n: number) {
       background: var(--background-light-color);
       height: 44px;
       width: 44px;
+      &[disabled="true"] {
+        &[current="false"] {
+          > p {
+            opacity: 20%;
+          }
+        }
+      }
       &[current="true"] {
         background: var(--primary-main-color);
         box-shadow: 0px 6px 20px 0px var(--box-shadow-color);
@@ -110,10 +133,26 @@ function clickRoom(n: number) {
         display: flex;
         gap: 8px;
         width: 50%;
-        &.meta {
-          opacity: 20%;
+        > p {
+          &.meta {
+            opacity: 50%;
+          }
+        }
+        > input {
+          all: unset;
+          width: 100%;
         }
       }
+    }
+  }
+  &__reset {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+    > svg {
+      height: 8px;
+      width: 8px;
     }
   }
 }

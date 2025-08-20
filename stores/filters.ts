@@ -34,15 +34,15 @@ export const useFiltersStore = defineStore("filters", () => {
     flats.value.length ? Math.max(...flats.value.map((f) => f.area)) : null,
   );
 
-  const filteredBy = (exclude: "price" | "area" | "rooms" | null = null) => {
+  const filteredBy = (roomsAction?: "exclude" | "only") => {
     if (!flats.value.length) return [] as Flats[];
     return flats.value.filter((f) => {
       const byRooms =
-        exclude == "rooms"
+        roomsAction == "exclude"
           ? true
           : selectedRooms.value == null || f.rooms == selectedRooms.value;
       const byPrice =
-        exclude == "price"
+        roomsAction == "only"
           ? true
           : inRange(
               f.price,
@@ -50,7 +50,7 @@ export const useFiltersStore = defineStore("filters", () => {
               selectedPriceMax.value ?? priceMax.value,
             );
       const byArea =
-        exclude == "area"
+        roomsAction == "only"
           ? true
           : inRange(
               f.area,
@@ -63,13 +63,13 @@ export const useFiltersStore = defineStore("filters", () => {
   };
 
   const availableRooms = computed(() =>
-    Array.from(new Set(filteredBy("rooms").map((f) => f.rooms))).sort(
+    Array.from(new Set(filteredBy("exclude").map((f) => f.rooms))).sort(
       (a, b) => a - b,
     ),
   );
 
   const availablePrice = computed(() => {
-    const data = filteredBy("price");
+    const data = filteredBy("only");
     if (!data.length)
       return { min: null as number | null, max: null as number | null };
     const prices = data.map((d) => d.price);
@@ -77,14 +77,14 @@ export const useFiltersStore = defineStore("filters", () => {
   });
 
   const availableArea = computed(() => {
-    const data = filteredBy("area");
+    const data = filteredBy("only");
     if (!data.length)
       return { min: null as number | null, max: null as number | null };
     const areas = data.map((d) => d.area);
     return { min: Math.min(...areas), max: Math.max(...areas) };
   });
 
-  const filteredFlats = computed(() => filteredBy(null));
+  const filteredFlats = computed(() => filteredBy());
 
   async function init() {
     loading.value = true;
@@ -124,7 +124,9 @@ export const useFiltersStore = defineStore("filters", () => {
       if (selectedPriceMin.value < min) selectedPriceMin.value = min;
       if (selectedPriceMax.value > max) selectedPriceMax.value = max;
       if (selectedPriceMin.value > selectedPriceMax.value)
-        selectedPriceMin.value = selectedPriceMax.value;
+        selectedPriceMin.value = min;
+      if (selectedPriceMax.value < selectedPriceMin.value)
+        selectedPriceMax.value = max;
     },
     { immediate: true },
   );
@@ -140,20 +142,15 @@ export const useFiltersStore = defineStore("filters", () => {
       if (selectedAreaMin.value == null) selectedAreaMin.value = min;
       if (selectedAreaMax.value == null) selectedAreaMax.value = max;
 
-      if (selectedAreaMin.value! < min) selectedAreaMin.value = min;
-      if (selectedAreaMax.value! > max) selectedAreaMax.value = max;
-      if (selectedAreaMin.value! > selectedAreaMax.value!)
-        selectedAreaMin.value = selectedAreaMax.value;
+      if (selectedAreaMin.value < min) selectedAreaMin.value = min;
+      if (selectedAreaMax.value > max) selectedAreaMax.value = max;
+      if (selectedAreaMin.value > selectedAreaMax.value)
+        selectedAreaMin.value = min;
+      if (selectedAreaMax.value < selectedAreaMin.value)
+        selectedAreaMax.value = max;
     },
     { immediate: true },
   );
-
-  // watch(
-  //   () => selectedRooms.value,
-  //   () => {
-  //     if (selectedRooms.value == undefined) resetFilters();
-  //   },
-  // );
 
   return {
     flats,
