@@ -95,6 +95,7 @@ function disabledRoom(n: number) {
   background: var(--background-main-color);
   padding: 40px;
   border-radius: 10px;
+  height: fit-content;
   &__buttons {
     display: flex;
     gap: 16px;

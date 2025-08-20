@@ -1,9 +1,9 @@
 export type Flats = {
   id: string;
-  namez: string;
+  name: string;
   rooms: number;
   area: number;
   floor: number;
   price: number;
-  floorplan: string;
+  layout: string;
 };
